@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    /* @apply bg-gradient-to-tr from-[#cfd9df] to-[#e2ebf0] bg-no-repeat min-h-screen m-0 p-0; */
+    /* @apply bg-gradient-to-tr from-black from-50% to-50% to-white bg-no-repeat min-h-screen m-0 p-0; */
+    @apply bg-black;
+  }
+  body::-webkit-scrollbar {
+    @apply !hidden;
+  }
+}
+
+@layer components {
+  .scrollbar-hide::-webkit-scrollbar {
+    @apply !hidden;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
