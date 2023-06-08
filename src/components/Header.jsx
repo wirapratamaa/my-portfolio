@@ -33,12 +33,12 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-16">
         <button
-          className="py-2 bg-blue-600 px-6 rounded-md text-lg text-white"
+          className="py-2 bg-blue-600 px-6 rounded-md text-lg text-white font-semibold animate-bounce"
           onClick={() => scrollView("about")}
         >
-          Take a look
+          MORE
         </button>
       </div>
     </div>

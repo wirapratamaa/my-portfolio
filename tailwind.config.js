@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        contact: "url(/src/assets/bg-contact.jpg)",
+      },
+    },
     container: {
       center: true,
       // remove 2xl
