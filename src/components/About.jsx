@@ -40,6 +40,10 @@ export const About = () => {
               <div className="w-1/4">Email</div>
               <div className="w-2/3 font-light">: wirapratama758@gmail.com</div>
             </div>
+            <div className="flex flex-row text-zinc-200">
+              <div className="w-1/4">Current Location</div>
+              <div className="w-2/3 font-light">: Bali</div>
+            </div>
           </div>
         </div>
       </div>

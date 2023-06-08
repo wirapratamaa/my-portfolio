@@ -1,16 +1,23 @@
 import React from "react";
 
-export const ProjectCard = ({
-  title = "",
-  src = "",
-  bgHeader = "bg-white",
-}) => {
+export const ProjectCard = ({ title = "", src = "", url }) => {
   return (
-    <div className="w-full rounded-md overflow-hidden transition duration-500 hover:scale-105 transform">
-      <div className={`${bgHeader} w-full py-4`}>{title}</div>
-      <div className="bg-yellow-400 w-full">
-        <img src={src} alt="" className="w-full" />
+    <a
+      className="w-full rounded-md overflow-hidden cursor-pointer group relative"
+      href={url}
+      target="_blank"
+      rel="noreferrer"
+    >
+      <div
+        className={`bg-gray-800/70 w-full py-4 text-lg absolute transition-transform duration-400 -translate-y-full group-hover:translate-y-0 text-center h-full text-white`}
+      >
+        <div className="font-bold flex justify-center items-center h-full">
+          <div>{title}</div>
+        </div>
       </div>
-    </div>
+      <div className="w-full">
+        <img src={src} alt="project" className="w-full" />
+      </div>
+    </a>
   );
 };

@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="container flex flex-col space-y-8 justify-center items-center py-4"
+      className="container flex flex-col space-y-8 justify-center items-center pt-28"
     >
       <div className="flex flex-col w-full">
         <span className="text-zinc-200 text-2xl text-center font-bold">

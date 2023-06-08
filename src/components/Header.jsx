@@ -1,10 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { scrollView } from "./utils/utils";
 
 const Header = () => {
   return (
     <div
-      className="container flex justify-center items-center h-screen"
+      className="container flex flex-col justify-center items-center h-screen"
       id="home"
     >
       <div className="w-full flex flex-col">
@@ -32,14 +33,14 @@ const Header = () => {
           />
         </div>
       </div>
-      {/* <div className="w-1/3 flex justify-center">
-        <img
-          src="https://i.ibb.co/Nm4XxBg/Picture-013.jpg"
-          alt=""
-          loading="lazy"
-          className="rounded-full w-40 h-40 object-cover border-2 border-gray-200"
-        />
-      </div> */}
+      <div className="mt-10">
+        <button
+          className="py-2 bg-blue-600 px-6 rounded-md text-lg text-white"
+          onClick={() => scrollView("about")}
+        >
+          Take a look
+        </button>
+      </div>
     </div>
   );
 };

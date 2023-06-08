@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import Contact from "./components/Contact";
 import Home from "./components/Header";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Resume />
       <Portfolio />
+      <Contact />
       <div className="mt-4"></div>
     </div>
   );

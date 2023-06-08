@@ -1,13 +1,13 @@
 import { useScrollspy } from "../hook/UseScrollspy";
-import { id_menu } from "./utils/utils";
+import { id_menu, scrollView } from "./utils/utils";
 
 const Navbar = () => {
   const activeId = useScrollspy(id_menu, 54);
-  console.log(activeId);
+
   return (
     <header
-      className={` transition-all duration-500 w-screen ${
-        activeId !== "home" ? "bg-gray-900 fixed" : "bg-black absolute"
+      className={` transition-all duration-500 w-screen h-[80px] flex items-center ${
+        activeId !== "home" ? "bg-gray-900 fixed top-0" : "bg-black absolute"
       } z-10 `}
     >
       <div className="container mx-auto p-4 flex items-center justify-between">
@@ -19,19 +19,17 @@ const Navbar = () => {
           <ul className="flex space-x-6">
             {id_menu?.map((id) => (
               <li
-                className={`text-lg ${
+                className={`text-lg cursor-pointer ${
                   activeId === id
                     ? "border-b-2 border-white"
                     : "border-b-2 border-transparent"
                 }`}
                 key={id}
+                onClick={() => scrollView(id)}
               >
-                <a
-                  href={`#${id}`}
-                  className="text-zinc-200 font-bold transition duration-300 capitalize"
-                >
+                <div className="text-zinc-200 font-bold transition duration-300 capitalize">
                   {id}
-                </a>
+                </div>
               </li>
             ))}
           </ul>
