@@ -18,11 +18,13 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src="/src/assets/github.svg"
-                alt="github"
-                className="bg-white h-12 w-12 p-2"
-              />
+              <span>
+                <img
+                  src="/src/assets/github.svg"
+                  alt="github"
+                  className="bg-white h-12 w-12 p-2"
+                />
+              </span>
             </a>
             <a
               className="cursor-pointer rounded-full overflow-hidden transition transform hover:scale-125"
@@ -30,11 +32,13 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src="/src/assets/gmail.png"
-                alt="email"
-                className="bg-white h-12 w-12 p-2"
-              />
+              <span>
+                <img
+                  src="/src/assets/gmail.png"
+                  alt="email"
+                  className="bg-white h-12 w-12 p-2"
+                />
+              </span>
             </a>
             <a
               className="cursor-pointer rounded-full overflow-hidden transition transform hover:scale-125"
@@ -42,11 +46,13 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                src="/src/assets/linkedin.png"
-                alt="linkedin"
-                className="bg-white h-12 w-12 p-2"
-              />
+              <span>
+                <img
+                  src="/src/assets/linkedin.png"
+                  alt="linkedin"
+                  className="bg-white h-12 w-12 p-2"
+                />
+              </span>
             </a>
           </div>
         </div>

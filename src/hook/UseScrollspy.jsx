@@ -26,9 +26,6 @@ export const useScrollspy = (ids, offset = 0) => {
         })
         .find(({ top, bottom }) => isBetween(scroll, top, bottom));
 
-      console.log("position", position);
-      console.log("scroll", scroll);
-
       setActiveId(position?.id || "");
     };
 
