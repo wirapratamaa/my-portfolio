@@ -6,14 +6,14 @@ const Contact = () => {
   return (
     <div className="pt-16" id="contact">
       <div className="bg-contact">
-        <div className="w-full h-[50vh] flex flex-col justify-center items-center space-y-3 bg-[#6c757d]/95">
-          <span className="text-zinc-200 text-4xl font-bold">
+        <div className="w-full h-[35vh] md:h-[50vh] flex flex-col justify-center items-center space-y-3 bg-[#6c757d]/95">
+          <span className="text-zinc-200 text-2xl md:text-4xl font-bold">
             Want to talk about a Project?
           </span>
-          <span className="text-zinc-200 text-4xl font-bold">
+          <span className="text-zinc-200 text-2xl md:text-4xl font-bold">
             Let&apos;s get in touch
           </span>
-          <div className="flex justify-center space-x-6 items-center w-1/3 mt-2">
+          <div className="flex justify-center space-x-3 md:space-x-6 items-center w-1/3 mt-2">
             <a
               className="cursor-pointer rounded-full overflow-hidden transition transform hover:scale-125"
               href="https://github.com/wirapratamaa/"

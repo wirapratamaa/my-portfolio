@@ -11,7 +11,7 @@ const Portfolio = () => {
       <div className="text-zinc-200 text-2xl font-bold border-b-4 py-2 border-zinc-200">
         Projects
       </div>
-      <div className="grid grid-cols-2 gap-y-12 gap-x-32 w-full mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:gap-y-12 md:gap-x-32 w-full mt-8 px-8">
         {projectData.map((item, i) => (
           <ProjectCard
             title={item.title}

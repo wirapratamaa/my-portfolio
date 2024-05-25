@@ -15,7 +15,7 @@ const Navbar = () => {
           <span className="text-zinc-200 ">WIRA</span>
           <span className="text-gray-400 opacity-75">PRATAMA</span>
         </h1>
-        <nav>
+        <nav className="md:block hidden">
           <ul className="flex space-x-6">
             {id_menu?.map((id) => (
               <li

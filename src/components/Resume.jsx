@@ -14,7 +14,7 @@ const Resume = () => {
           EXPERIENCE
         </span>
         <div className="flex justify-center">
-          <div className="w-1/2  mt-4 grid grid-flow-row gap-4">
+          <div className="w-3/4 md:w-1/2  mt-4 grid grid-flow-row gap-4">
             <div className="flex space-x-6 bg-gray-800 rounded-md  px-4 py-6">
               <div className="mx-3">
                 <div className="bg-zinc-200 rounded-full p-2">
@@ -103,7 +103,7 @@ const Resume = () => {
           SKILL
         </span>
         <div className="flex justify-center">
-          <div className="w-1/2  mt-4 grid grid-flow-row gap-4">
+          <div className="w-3/4 md:w-1/2  mt-4 grid grid-flow-row gap-4">
             <div className="flex space-x-6 bg-gray-800 rounded-md  px-4 py-6">
               <div className="mx-3">
                 <div className="bg-zinc-200 rounded-full p-2">
@@ -152,7 +152,7 @@ const Resume = () => {
           EDUCATION
         </span>
         <div className="flex justify-center">
-          <div className="w-1/2  mt-4 grid grid-flow-row gap-4">
+          <div className="w-3/4 md:w-1/2 mt-4 grid grid-flow-row gap-4">
             <div className="flex space-x-6 bg-gray-800 rounded-md  px-4 py-6">
               <div className="mx-3">
                 <div className="bg-zinc-200 rounded-full p-2">
