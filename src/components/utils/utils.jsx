@@ -25,4 +25,9 @@ export const projectData = [
     src: "https://i.ibb.co/6BbZ7MZ/Screenshot-2023-06-08-at-14-55-59.png",
     url: "https://extranet.ruangnyaman.id/",
   },
+  {
+    title: "Bali Ayu Shop",
+    src: "https://i.ibb.co.com/Nymq0Fc/Screenshot-2024-05-25-at-20-16-25.png",
+    url: "https://baliayushop.id/",
+  },
 ];
