@@ -1,8 +1,6 @@
-import React from "react";
-
-const EMAIL_IMG = "/src/assets/gmail.png";
-const LINKEDIN_IMG = "/src/assets/linkedin.png";
-const GITHUB_IMG = "/src/assets/github.svg";
+import EMAIL_SRC from "./../assets/gmail.png";
+import GITHUB_SRC from "./../assets/github.svg";
+import LINKEDIN_SRC from "./../assets/linkedin.png";
 
 const Contact = () => {
   return (
@@ -24,7 +22,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src={GITHUB_IMG}
+                  src={GITHUB_SRC}
                   alt="github"
                   className="bg-white h-12 w-12 p-2"
                 />
@@ -38,7 +36,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src={EMAIL_IMG}
+                  src={EMAIL_SRC}
                   alt="email"
                   className="bg-white h-12 w-12 p-2"
                 />
@@ -52,7 +50,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src={LINKEDIN_IMG}
+                  src={LINKEDIN_SRC}
                   alt="linkedin"
                   className="bg-white h-12 w-12 p-2"
                 />
