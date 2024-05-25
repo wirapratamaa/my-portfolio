@@ -1,5 +1,9 @@
 import React from "react";
 
+const EMAIL_IMG = "/src/assets/gmail.png";
+const LINKEDIN_IMG = "/src/assets/linkedin.png";
+const GITHUB_IMG = "/src/assets/github.svg";
+
 const Contact = () => {
   return (
     <div className="pt-16" id="contact">
@@ -20,7 +24,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src="/src/assets/github.svg"
+                  src={GITHUB_IMG}
                   alt="github"
                   className="bg-white h-12 w-12 p-2"
                 />
@@ -34,7 +38,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src="/src/assets/gmail.png"
+                  src={EMAIL_IMG}
                   alt="email"
                   className="bg-white h-12 w-12 p-2"
                 />
@@ -48,7 +52,7 @@ const Contact = () => {
             >
               <span>
                 <img
-                  src="/src/assets/linkedin.png"
+                  src={LINKEDIN_IMG}
                   alt="linkedin"
                   className="bg-white h-12 w-12 p-2"
                 />
