@@ -44,7 +44,7 @@ const Resume = () => {
                   code with server-side logic.
                 </span>
                 <span className="text-zinc-200 text-sm mt-2">
-                  - Perform thorough testing and debugging of front end code to
+                  - Perform through testing and debugging of front end code to
                   identify and fix any issues or bugs.
                 </span>
               </div>
