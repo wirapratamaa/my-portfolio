@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         contact: "url(/src/assets/bg-contact.jpg)",
+        home: "url(/src/assets/home_bg.jpg)",
       },
     },
     container: {

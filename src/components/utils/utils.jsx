@@ -31,3 +31,33 @@ export const projectData = [
     url: "https://baliayushop.id/",
   },
 ];
+
+export const resumeData = [
+  {
+    time: "2021 - presents",
+    job: "Front End Developer",
+    company: "PT Ruang Nyaman Abadi",
+    task: [
+      "Develop user-facing features for websites and web applications using ReactJs",
+      "Collaborate with designers to translate wireframes and mockups into interactive and responsive web interfaces.",
+      "Collaborate with back end developers to integrate front end code with server-side logic.",
+      "Perform through testing and debugging of front end code to identify and fix any issues or bugs.",
+    ],
+  },
+  {
+    time: "2019 - 2020",
+    job: "IT Manager",
+    company: "PT Backup And Cloud",
+    task: [
+      "Manage and maintain our clients backup systems, and provide solutions for them. Protect their data from Ransomware and Malware",
+    ],
+  },
+  {
+    time: "2018 - 2019",
+    job: "IT Support Assistance",
+    company: "PT Backup And Cloud",
+    task: [
+      "Manage and maintain our clients backup systems, and provide solutions for them. Protect their data from Ransomware and Malware",
+    ],
+  },
+];
