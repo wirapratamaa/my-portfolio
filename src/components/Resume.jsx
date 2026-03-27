@@ -63,9 +63,6 @@ const Resume = () => {
                     <span className="text-sm leading-none">Javascript</span>
                   </div>
                   <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">Flutter</span>
-                  </div>
-                  <div className="bg-white rounded px-3 py-1">
                     <span className="text-sm leading-none">
                       Git (Version Control System)
                     </span>
