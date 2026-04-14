@@ -12,7 +12,7 @@ export const About = () => {
       <div className="flex md:flex-row flex-col items-center space-x-6">
         <div className="w-full md:w-1/3 flex justify-center md:justify-end mb-4 md:mb-0">
           <img
-            src="https://i.ibb.co/Nm4XxBg/Picture-013.jpg"
+            src="https://i.ibb.co.com/dwgXx5tB/Gemini-Generated-Image-eiifoleiifoleiif.png"
             alt=""
             loading="lazy"
             className="rounded-full w-60 h-60 object-cover border-2 border-gray-200"
