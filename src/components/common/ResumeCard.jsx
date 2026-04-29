@@ -3,10 +3,10 @@ import { MdWork } from "react-icons/md";
 const ResumeCard = ({ data }) => {
   const { time, job, company, task } = data;
   return (
-    <div className="flex flex-col md:flex-row md:space-x-6 bg-gray-800 rounded-md px-4 py-6">
+    <div className="flex flex-col md:flex-row md:space-x-6 bg-dark-surface rounded-md px-4 py-6">
       <div className="flex flex-row mx-3 space-x-3 items-center md:items-start">
-        <div className="w-fit bg-zinc-200 rounded-full p-2">
-          <MdWork className="h-10 w-10" />
+        <div className="w-fit bg-primary-gradient rounded-full p-2">
+          <MdWork className="h-10 w-10 text-gray-900" />
         </div>
         <div className="flex flex-col md:hidden">
           <span className="text-zinc-200 text-base font-bold">{time}</span>

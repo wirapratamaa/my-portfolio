@@ -8,7 +8,7 @@ import Resume from "./components/Resume";
 
 function App() {
   return (
-    <div className="scrollbar-hide">
+    <div className="scrollbar-hide font-orbitron tracking-widest">
       <Navbar />
       <Home />
       <About />

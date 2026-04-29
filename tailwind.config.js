@@ -6,6 +6,29 @@ export default {
       backgroundImage: {
         contact: "url(/src/assets/bg-contact.jpg)",
         home: "url(/src/assets/home_bg.jpg)",
+        "primary-gradient":
+          "linear-gradient(135deg, #00B4FF, #8A2BE2, #FF4DFF)",
+        "secondary-gradient": "linear-gradient(135deg, #00B4FF, #3B82F6)",
+        "third-gradient": "linear-gradient(135deg, #8A2BE2, #FF4DFF)",
+      },
+      colors: {
+        primary: {
+          blue: "#00B4FF",
+          purple: "#8A2BE2",
+          pink: "#FF4DFF",
+        },
+        dark: {
+          bg: "#0B0F1A",
+          surface: "#111827",
+          border: "#1F2937",
+        },
+        text: {
+          primary: "#E6E8ED",
+          secondary: "#9CA3AF",
+        },
+      },
+      fontFamily: {
+        orbitron: ["Orbitron", "sans-serif"],
       },
     },
     container: {

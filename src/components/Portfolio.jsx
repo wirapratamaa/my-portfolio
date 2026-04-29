@@ -16,7 +16,7 @@ const Portfolio = () => {
           <ProjectCard
             title={item.title}
             src={item.src}
-            url={item.url}
+            // url={item.url}
             key={i}
           />
         ))}

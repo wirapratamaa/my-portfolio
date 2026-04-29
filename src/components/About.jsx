@@ -11,18 +11,22 @@ export const About = () => {
       </div>
       <div className="flex md:flex-row flex-col items-center space-x-6">
         <div className="w-full md:w-1/3 flex justify-center md:justify-end mb-4 md:mb-0">
-          <img
-            src="https://i.ibb.co.com/dwgXx5tB/Gemini-Generated-Image-eiifoleiifoleiif.png"
-            alt=""
-            loading="lazy"
-            className="w-60 h-60 object-top object-cover rounded-full border-2 border-gray-200"
-          />
+          <div className="p-[2px] rounded-xl bg-primary-gradient">
+            <div className="bg-[#0B0F1A] rounded-xl p-4">
+              <img
+                src="https://i.ibb.co.com/dwgXx5tB/Gemini-Generated-Image-eiifoleiifoleiif.png"
+                alt=""
+                loading="lazy"
+                className="w-60 h-60 object-top object-cover rounded "
+              />
+            </div>
+          </div>
         </div>
         <div className="w-full md:w-1/2">
           <div className="text-zinc-200 text-4xl font-bold mb-4 text-center md:block hidden">
             ABOUT
           </div>
-          <div className="flex">
+          <div className="flex ">
             <span className="text-zinc-200 px-5 md:px-0">
               Hi, I&apos;m Wira, I&apos;m a Frontend Developer with over 5 years
               of experience in the technology industry, specializing in building

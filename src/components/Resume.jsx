@@ -28,10 +28,10 @@ const Resume = () => {
         </span>
         <div className="flex justify-center">
           <div className="w-4/5 md:w-1/2  mt-4 grid grid-flow-row gap-4">
-            <div className="flex flex-col md:flex-row md:space-x-6 bg-gray-800 rounded-md  px-4 py-6">
+            <div className="flex flex-col md:flex-row md:space-x-6 bg-dark-surface rounded-md  px-4 py-6">
               <div className="flex flex-row mx-3 space-x-3 items-center md:items-start">
-                <div className="bg-zinc-200 rounded-full w-fit p-2">
-                  <SlChemistry className="h-10 w-10" />
+                <div className="bg-primary-gradient rounded-full w-fit p-2">
+                  <SlChemistry className="h-10 w-10 text-gray-900" />
                 </div>
                 <div className="flex flex-col md:hidden">
                   <span className="text-zinc-200 text-lg font-bold">
@@ -44,26 +44,38 @@ const Resume = () => {
                   TECH STACK
                 </span>
                 <div className="flex flex-wrap gap-2 mt-4">
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">ReactJs</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      ReactJs
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">NextJs</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      NextJs
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">TailwindCSS</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      TailwindCSS
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">Bootstrap</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      Bootstrap
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">CSS/SCSS</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      CSS/SCSS
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">Javascript</span>
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
+                      Javascript
+                    </span>
                   </div>
-                  <div className="bg-white rounded px-3 py-1">
-                    <span className="text-sm leading-none">
+                  <div className="bg-primary-gradient rounded px-3 py-1">
+                    <span className="text-sm leading-none text-white font-bold">
                       Git (Version Control System)
                     </span>
                   </div>
@@ -81,14 +93,12 @@ const Resume = () => {
           <div className="w-3/4 md:w-1/2 mt-4 grid grid-flow-row gap-4">
             <div className="flex space-x-6 bg-gray-800 rounded-md  px-4 py-6">
               <div className="mx-3">
-                <div className="bg-zinc-200 rounded-full p-2">
-                  <GiGraduateCap className="h-10 w-10" />
+                <div className="bg-primary-gradient rounded-full p-2">
+                  <GiGraduateCap className="h-10 w-10 text-gray-900" />
                 </div>
               </div>
               <div className="flex flex-col">
-                <span className="text-zinc-200 text-lg font-bold">
-                  2011 - 2018
-                </span>
+                <span className="text-zinc-200 text-lg font-bold">2011</span>
                 <span className="text-zinc-200 text-2xl font-bold">
                   Bachelor of Informatics Engineering
                 </span>
